@@ -1,0 +1,15 @@
+Name:        iV Drip
+Description: a set of tools for parsing/interpreting vote and event log data
+Authors:     Daniel Sandler and Bryce Eakin - {dsandler,beakin}@rice.edu
+Version:     0.1 released 2006-Nov-14
+
+Copyright:   (c) 2006 Rice University. Licensed under the GPL 2; see LICENSE.
+
+Files:
+    ieventlog.py -- event log parser for both textual event logs 
+                    and binary audit data (Vxxxxxxx.BIN)
+    BallotLog.py -- ballot parser/tabulator for .BIN audit data
+    ivotelog.py  -- ballot parser/tabulator for textual ballot data
+    rwalk.py, seqdiff.py -- utility code
+    LICENSE      -- the GNU General Public License, version 2
+    README       -- this file
